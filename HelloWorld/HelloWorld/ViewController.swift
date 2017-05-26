@@ -19,6 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func buttonPressed(_ sender: UIButton) {
+        print("Hola, has presionado el botón")
+    }
 
 
 }
