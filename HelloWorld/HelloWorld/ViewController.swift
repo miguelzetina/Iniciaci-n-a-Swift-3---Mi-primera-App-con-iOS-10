@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var helloLabel: UILabel!
     
+    @IBOutlet var nameTextField: UITextField!
     
     
 
@@ -45,7 +46,9 @@ class ViewController: UIViewController {
          
         */
         
-        helloLabel.text = "¡Hola, beinvenido!\nEsto es solo una aplicación de prueba."
+        let theName = nameTextField.text!
+        
+        helloLabel.text = "Hola, \(theName). ¡Bienvenido!\nEsto es solo una aplicación de prueba."
         
     }
 
